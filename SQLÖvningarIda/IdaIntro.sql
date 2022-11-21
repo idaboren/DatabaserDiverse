@@ -27,7 +27,7 @@
 --[Ålder] int,
 --[Hemort] nvarchar(max) not null);
 
-insert into personer ([Förnamn], [Efternamn], [Ålder], [Hemort])
-values ('Ida', 'Borén', 28, 'Göteborg')
+insert into personer ([Id],[Förnamn], [Efternamn], [Ålder], [Hemort])
+values (1,'Ida', 'Borén', 28, 'Göteborg')
 
 select * from personer;
